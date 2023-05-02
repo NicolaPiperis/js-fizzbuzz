@@ -6,7 +6,7 @@ container = document.getElementById("container");
 console.log(container);
 
 // CICLIZZIAMO E ATTIVIAMO LA FUNZIONE
-for (i = 1; i >= 100; i++) {
+for (let i = 1; i <= 100; i++) {
 
     // CREIAMO L'ELEMENTO PRINCIPALE
     let square = document.createElement ("div");
@@ -16,7 +16,11 @@ for (i = 1; i >= 100; i++) {
     square.append(i);
 
     // GLI FORNIAMO UNA LOCALIZZAZIONE
-    container.append(square);
+    container.append(square); 
+
+    if (i = i % 3 === 0){
+        i.document.innerHTML = "fizz"
+    }
 }
 
 

@@ -20,9 +20,18 @@ h1{
 #container{
     width: 60%;
     margin: auto;
+    display: flex;
+    flex-wrap: wrap;
 }
 
 .square{
+    display: flex;
+    justify-content: center;
+    align-items: center;
     background-color: #1389b2;
     color: black;
+    width: calc((100% / 10) - 20px);
+    height: 100px;
+    margin: 10px 10px;
+    font-weight: 800;
 }
