@@ -22,6 +22,7 @@ h1{
     margin: auto;
     display: flex;
     flex-wrap: wrap;
+    justify-content: center;
 }
 
 .square{
@@ -30,8 +31,18 @@ h1{
     align-items: center;
     background-color: #1389b2;
     color: black;
-    width: calc((100% / 10) - 20px);
-    height: 100px;
+    width: calc((100% / 7) - 20px);
+    height: 125px;
     margin: 10px 10px;
     font-weight: 800;
+}
+
+.fizz{
+    background-color: aqua;
+}
+.buzz{
+    background-color: rgba(255, 238, 0, 0.932);
+}
+.fizz_buzz{
+    background-color: rgba(255, 0, 0, 0.63);
 }

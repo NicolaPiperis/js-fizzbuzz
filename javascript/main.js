@@ -18,8 +18,21 @@ for (let i = 1; i <= 100; i++) {
     // GLI FORNIAMO UNA LOCALIZZAZIONE
     container.append(square); 
 
-    if (i % 3 === 0){
-        i.document.innerHTML = "fizz"
+    if (i % 3 === 0 && i % 5 === 0){
+        square.innerHTML = "FizzBuzz"
+        square.classList.add("fizz_buzz")
+    }
+
+    else if (i % 5 === 0) {
+        square.innerHTML = "buzz"
+        square.classList.add ("buzz")
+    }
+
+    else if(i % 3 === 0) {
+        
+
+        square.innerHTML = "fizz"
+        square.classList.add ("fizz")
     }
 }
 
