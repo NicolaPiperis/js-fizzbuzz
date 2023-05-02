@@ -18,7 +18,7 @@ for (let i = 1; i <= 100; i++) {
     // GLI FORNIAMO UNA LOCALIZZAZIONE
     container.append(square); 
 
-    if (i = i % 3 === 0){
+    if (i % 3 === 0){
         i.document.innerHTML = "fizz"
     }
 }
